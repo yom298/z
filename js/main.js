@@ -8,7 +8,7 @@ Time: 2023.06.06
 document.addEventListener("DOMContentLoaded", function () {
 	/* 当HTML文档加载完成后执行函数 */ var qrCode1Image = new Image(); /* 创建一个Image对象用于加载QR Code图像 */
 	qrCode1Image.src = new QRCode(document.createElement("div") /* 创建一个div元素 */, {
-		text: "https://qr.alipay.com/tsx12297kmehivtyqnfjz42" /* 设置二维码1的内容 */,
+		text: "https://qr.alipay.com/2m611499gearhvuh4n7dh03" /* 设置二维码1的内容 */,
 		width: 300 /* 设置二维码宽度 */,
 		height: 300 /* 设置二维码高度 */,
 		correctLevel: QRCode.CorrectLevel.H /* 设置二维码纠错级别 */,
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	var qrCode2Image = new Image(); /* 创建一个Image对象用于加载QR Code图像 */
 	qrCode2Image.src = new QRCode(document.createElement("div") /* 创建一个div元素 */, {
-		text: "wxp://f2f0NdB0Tq3drCrXZ8rxJyod43maWrtZSQFHI2CRLBMg87sDvKjI7vEfap2akfmRwIWI" /* 设置二维码2的内容 */,
+		text: "https://u.wechat.com/MFXu3tUblKTtC8XB35I0UIo?s=2" /* 设置二维码2的内容 */,
 		width: 300 /* 设置二维码宽度 */,
 		height: 300 /* 设置二维码高度 */,
 		correctLevel: QRCode.CorrectLevel.H /* 设置二维码纠错级别 */,
