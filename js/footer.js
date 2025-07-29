@@ -22,12 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	footer.appendChild(line1);
 
 	// 创建第二行页脚元素并设置文本内容、字体大小和颜色
-	var line2 = document.createElement("div");
-	line2.textContent = "USDT:TDieuomyJMeN7tK5XwP1nhykw5dDiDLZ4n";
-	line2.style.fontSize = "0.9125rem"; // 设置初始的第二行页脚的字体大小
-	line2.style.color = "#666666"; // 设置第二行页脚的字体颜色
-	line2.style.cursor = "pointer"; // 设置鼠标样式为指针
-	footer.appendChild(line2);
+	
 
 	// 创建复制成功提示元素并设置初始隐藏状态
 	var copySuccess = document.createElement("div");
