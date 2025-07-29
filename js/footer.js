@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	// 创建第一行页脚元素并设置文本内容、字体大小和颜色
 	var line1 = document.createElement("div");
-	line1.textContent = "若无法直接付款 请截图保存后再扫描二维码";
+	line1.textContent = "扫码付款168 加好友凭支付截图领取兑换码";
 	line1.style.fontSize = "1.10rem"; // 设置初始的第一行页脚的字体大小
 	line1.style.color = "#000000"; // 设置第一行页脚的字体颜色
 	footer.appendChild(line1);
